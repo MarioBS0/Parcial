@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Plantilla Profesional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #34495e;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        header img {
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .center-text {
+            flex: 1;
+            text-align: center;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        .right-text {
+            display: flex;
+            gap: 15px;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        }
+        section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <img src="https://via.placeholder.com/50" alt="Logo">
+        <nav>
+            <div class="center-text">Bienvenido a la Página</div>
+            <div class="right-text">
+                <span>Texto Derecho 1</span>
+                <span>Texto Derecho 2</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Bienvenido a la Página</h1>
+            <p>Este es un diseño profesional y elegante con un encabezado estilizado y un pie de página fijo.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Todos los derechos reservados.
+    </footer>
 </body>
 </html>
